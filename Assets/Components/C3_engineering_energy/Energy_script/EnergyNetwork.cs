@@ -26,7 +26,7 @@ public class EnergyNetwork : MonoBehaviour
 	public int GetSecondsRemaining()
 	{
 		int elapsedSeconds = (int)(Time.time - batteryFull);
-		int secondsLeft = (BatteryDuration - elapsedSeconds);
+		int secondsLeft = (batteryDuration - elapsedSeconds);
 		return secondsLeft;
 	}
 
